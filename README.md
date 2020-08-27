@@ -1,4 +1,4 @@
-# Mini Project - Quiz-Master
+# Mini Project - Quiz Master
 ## Introduction of the Project:
 Online Learning has become the new normal. Smartphones are no longer a luxury.They have become a must-have as the COVID-19 pandemic has re-shaped education.Even during the toughest times, the world has never stopped learning.
 Recent studies have shown that there is a drastic increase in the usage of technology by educational institutions to educate and assess the learnings of the students online.
