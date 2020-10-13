@@ -8,6 +8,11 @@ import android.widget.GridView;
 import java.util.ArrayList;
 import java.util.List;
 
+
+//importing the category list in this activity which can be used in the adapter
+import static com.example.quizmaster.MainActivity.catList;
+
+//This is the category Activity
 public class HomeActivity extends AppCompatActivity {
     private GridView catGrid;
 
@@ -21,19 +26,8 @@ public class HomeActivity extends AppCompatActivity {
 
         catGrid =findViewById(R.id.catGridView);
 
-        List<String> catList = new ArrayList<>();
 
-        catList.add("C++");
-        catList.add("Java");
-        catList.add("NodeJs");
-        catList.add("Data Structure");
-        catList.add("React Native");
-        catList.add("A I");
-        catList.add("Python");
-        catList.add("CCV");
-        catList.add("Machine Learning");
-        catList.add("JavaScript");
-
+        //catList made in MainActivity is used here
         CatGridAdapter adapter =new CatGridAdapter(catList);
         catGrid.setAdapter(adapter);
 
